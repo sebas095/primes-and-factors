@@ -1,6 +1,6 @@
 {
   "name": "primes-and-factors",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "return the prime factor of a number",
   "main": "build/index.js",
   "scripts": {
@@ -16,7 +16,10 @@
   },
   "keywords": [
     "prime",
-    "factor"
+    "factor",
+    "primes",
+    "factors",
+    "math"
   ],
   "author": "sebastian duque restrepo <sebas_tian_95@hotmail.com>",
   "license": "MIT",
