@@ -16,8 +16,8 @@ primeFactor.getFrequency(12); // [{ factor: 2, times: 2 }, { factor: 3, times: 1
     npm run test
 
 ## API
-    calculate(number)    // get all prime factors of a number
-    getUniqueFactors(number) // get all prime factors of a number but without repeating
+    calculate(number)         // get all prime factors of a number
+    getUniqueFactors(number)  // get all prime factors of a number but without repeating
 
-    getFrequency(number) // get all prime factors of a number separate for frequency
-    isPrime(number) // return if a number is prime or not
+    getFrequency(number)      // get all prime factors of a number separate for frequency
+    isPrime(number)           // return if a number is prime or not
