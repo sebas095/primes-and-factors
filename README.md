@@ -1,4 +1,4 @@
-# prime-factor
+# primes-and-factors
 module to obtain the prime factors of a number
 
 ## Usage
