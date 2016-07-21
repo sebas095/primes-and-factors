@@ -3,14 +3,14 @@ module to obtain the prime factors of a number
 
 ## Usage
 ``` js
-var primeFactor = require('prime-factor');
-primeFactor.calculate(18); // [2, 3, 3]
-primeFactor.getUniqueFactors(18); // [2, 3]
-primeFactor.isPrime(5); // true
-primeFactor.getFrequency(12); // [{ factor: 2, times: 2 }, { factor: 3, times: 1 }],
+var primesFactors = require('primes-and-factors');
+primesFactors.calculate(18); // [2, 3, 3]
+primesFactors.getUniqueFactors(18); // [2, 3]
+primesFactors.isPrime(5); // true
+primesFactors.getFrequency(12); // [{ factor: 2, times: 2 }, { factor: 3, times: 1 }],
 ```
 ## Install
-    npm install @sebas095/prime-factor
+    npm install primes-and-factors
 
 ## Test
     npm run test

@@ -1,6 +1,6 @@
 {
   "name": "primes-and-factors",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "return the prime factor of a number",
   "main": "build/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebas095/prime-factor.git"
+    "url": "git+https://github.com/sebas095/primes-and-factors.git"
   },
   "keywords": [
     "prime",
