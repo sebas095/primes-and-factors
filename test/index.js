@@ -93,8 +93,4 @@ test('test results', (t) => {
 
   for (let oneTest of calculateTestArray) runTests(oneTest)
 
-  t.same(primeFactor.getFrequency(12),
-    [{ factor: 2, times: 2 }, { factor: 3, times: 1 }],
-    'it should be [{ factor: 2, times: 2 }, { factor: 3, times: 1 }]');
-  t.end();
 });
