@@ -92,5 +92,6 @@ test('test results', (t) => {
   }
 
   for (let oneTest of calculateTestArray) runTests(oneTest)
-
+  
+  t.end();
 });
