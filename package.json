@@ -1,6 +1,6 @@
 {
   "name": "primes-and-factors",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "return the prime factor of a number",
   "main": "build/index.js",
   "scripts": {
