@@ -1,7 +1,6 @@
 lib
 test
 prebuild
-README.md
 CONTRIBUTING
 .eslintrc
 .babelrc
