@@ -4,6 +4,7 @@
   "description": "return the prime factor of a number",
   "main": "build/index.js",
   "scripts": {
+    "examples": "node examples/index.js",
     "lint": "eslint lib test",
     "test": "babel-node test/index.js | tap-spec",
     "prebuild": "npm run lint",
