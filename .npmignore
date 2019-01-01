@@ -1,8 +1,7 @@
 lib
 test
 prebuild
-README
-LICENCE
+README.md
 CONTRIBUTING
 .eslintrc
 .babelrc
