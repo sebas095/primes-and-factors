@@ -1,7 +1,7 @@
 {
   "name": "primes-and-factors",
   "version": "1.1.0",
-  "description": "return the prime factor of a number",
+  "description": "module with functions relating to the prime factors of a positive integer",
   "main": "build/index.js",
   "scripts": {
     "examples": "node examples/index.js",
@@ -23,6 +23,7 @@
     "factor",
     "primes",
     "factors",
+    "number",
     "math"
   ],
   "author": "sebastian duque restrepo <sebas_tian_95@hotmail.com>",
