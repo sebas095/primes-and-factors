@@ -11,7 +11,7 @@
     "build:dirs": "mkdir -p build",
     "build:pre": "babel lib --out-dir build",
     "build": "npm run build:dirs && npm run build:pre",
-    "prepublish": "npm run test"
+    "prepublishOnly": "npm run test"
   },
   "repository": {
     "type": "git",
