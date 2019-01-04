@@ -8,10 +8,9 @@
     "lint": "eslint lib test",
     "test": "babel-node test/index.js | tap-spec",
     "prebuild": "npm run lint",
-    "build:dirs": "mkdir -p prebuild build",
-    "build:pre": "babel lib --out-dir prebuild",
-    "build:minify": "uglifyjs prebuild/index.js -cm -o build/index.js",
-    "build": "npm run build:dirs && npm run build:pre && npm run build:minify",
+    "build:dirs": "mkdir -p build",
+    "build:pre": "babel lib --out-dir build",
+    "build": "npm run build:dirs && npm run build:pre",
     "prepublish": "npm run test"
   },
   "repository": {
