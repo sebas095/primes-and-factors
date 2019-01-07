@@ -5,3 +5,4 @@ prebuild
 CONTRIBUTING
 .eslintrc
 .babelrc
+temp*.md
