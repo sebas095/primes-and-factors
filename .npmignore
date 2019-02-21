@@ -1,8 +1,9 @@
+.babelrc
+.sonarlint
+.eslintrc
+CONTRIBUTING
 examples
 lib
-test
 prebuild
-CONTRIBUTING
-.eslintrc
-.babelrc
 temp*.md
+test
