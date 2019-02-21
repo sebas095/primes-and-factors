@@ -1,7 +1,9 @@
-// const pf = require('primes-and-factors'); // From npm
+/* eslint-disable no-console */
+
+// const pf = require('primes-and-factors');  // From npm
 const pf = require('../lib/index.js'); // Local copy
 
-const testNums = arr => {
+const displayFunctionOutputs = (arr) => {
   console.log('');
   console.log('-------------------------------------------------------------------');
   console.log('    Format of examples on variable n:');
@@ -20,6 +22,9 @@ const testNums = arr => {
     console.log(`4.  ${JSON.stringify(pf.getPrimeExponentObject(a))}`);
     console.log(`5.  ${JSON.stringify(pf.getFrequency(a))}`);
   }
-}
+  console.log('');
+};
 
-testNums([0, 1, 2, 3, 4, 5, 6, 11, 18, 840, 27720, 65537, 1000000, 1000003, 1000036, 10000000000023])
+displayFunctionOutputs([0, 1, 2, 3, 4, 5, 6, 11, 18, 840, 27720,
+  65537, 1000000, 1000003, 1000036, 10000000000023,
+]);
