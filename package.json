@@ -5,7 +5,6 @@
   "main": "build/index.js",
   "scripts": {
     "examples": "node examples/index.js",
-    "examples:timing": "node examples/timing.js",
     "lint": "eslint lib test",
     "test": "babel-node test/index.js | tap-spec",
     "prebuild": "npm run lint",
