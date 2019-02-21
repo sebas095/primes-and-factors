@@ -8,7 +8,7 @@
     "lint": "eslint lib test examples",
     "lint:fix": "eslint lib test examples --fix",
     "test": "babel-node test/index.js | tap-spec",
-    "prebuild": "npm run lint",
+    "prebuild": "npm run lint && npm run test",
     "build:dirs": "mkdir -p build",
     "build:pre": "babel lib --out-dir build",
     "build": "npm run build:dirs && npm run build:pre",
