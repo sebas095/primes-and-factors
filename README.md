@@ -1,5 +1,5 @@
 # primes-and-factors
-Module with simple primality tester and functions to return prime factors of a number in various formats.
+Module with simple primality tester and functions to return prime factors of a number in various formats. Find [module on npm](https://www.npmjs.com/package/primes-and-factors) and [code repo with examples on GitHub](https://github.com/sebas095/primes-and-factors).
 
 ## API
 ``` js
