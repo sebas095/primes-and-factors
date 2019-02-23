@@ -36,4 +36,4 @@ const primeFactorPerformanceSpec = () => {
   });
 };
 
-module.exports = primeFactorPerformanceSpec;
+export default primeFactorPerformanceSpec;

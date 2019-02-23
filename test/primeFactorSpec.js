@@ -111,4 +111,4 @@ const primeFactorSpec = () => {
   });
 };
 
-module.exports = primeFactorSpec;
+export default primeFactorSpec;

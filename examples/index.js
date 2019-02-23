@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
-// const pf = require('primes-and-factors');  // From npm
-const pf = require('../lib/index.js'); // Local copy
+// import pf from 'primes-and-factors' // From npm
+import pf from '../lib/index'; // From local copy
 
 const displayFunctionOutputs = (arr) => {
   console.log('');
